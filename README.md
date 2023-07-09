@@ -9,8 +9,6 @@ pip install Topsis-Noordeep-102017145
 #### Syntax
 ```
 topsis <InputDataFile> <Weights> <Impacts> <ResultFileName>
-Example:
-topsis inputfile.csv 1,2,1,2,1 +,+,-,+,- result.csv
 ```
 #### Example
 > Sample Input Data
@@ -22,10 +20,9 @@ topsis inputfile.csv 1,2,1,2,1 +,+,-,+,- result.csv
 | M3 |0.85 |0.72|4 |30.5 |9.02 |
 | M4 |0.61  |0.37|5.4 |56.9 |15.82 |
 | M5 |0.91 |0.83|3.4 |53.4 |14.64 |
-
-Weights: 1,1,1,1,1
-Impacts: +,+,+,+,+
-
+```
+inputfile.csv 1,1,1,1,1 +,+,+,+,+ result.csv
+```
 > Sample Output Data
 > 
 | Name | P1 | P2 | P3 | P4 | P5 |Score|Rank|
