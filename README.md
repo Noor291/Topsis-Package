@@ -1,5 +1,5 @@
 # Topsis Package
-Topsis-Noordeep-102017145 is a Python package for dealing with Multiple Criteria Decision Making(MCDM) problems by using Technique for Order of Preference by Similarity to Ideal Solution(TOPSIS).
+**Topsis-Noordeep-102017145** is a Python package for dealing with Multiple Criteria Decision Making(MCDM) problems by using Technique for Order of Preference by Similarity to Ideal Solution(TOPSIS).
 Topsis is a method of compensatory aggregation that compares a set of alternatives, normalising scores for each criterion and calculating the geometric distance between each alternative and the ideal alternative, which is the best score in each criterion.
 
 #### Installation
@@ -21,7 +21,7 @@ topsis <InputDataFile> <Weights> <Impacts> <ResultFileName>
 | M4 |0.61  |0.37|5.4 |56.9 |15.82 |
 | M5 |0.91 |0.83|3.4 |53.4 |14.64 |
 ```
-inputfile.csv 1,1,1,1,1 +,+,+,+,+ result.csv
+inputFile.csv 1,1,1,1,1 +,+,+,+,+ result.csv
 ```
 > Sample Output Data
 > 
