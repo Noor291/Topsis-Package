@@ -4,7 +4,7 @@ Topsis is a method of compensatory aggregation that compares a set of alternativ
 
 #### Installation
 ```
-Use the package manager pip to install Topsis-Noordeep-102017145
+pip install Topsis-Noordeep-102017145
 ```
 #### Syntax
 ```
@@ -14,6 +14,7 @@ topsis inputfile.csv 1,2,1,2,1 +,+,-,+,- result.csv
 ```
 #### Example
 > Sample Input Data
+> 
 | Name | P1 | P2 | P3 | P4 | P5 |
 | --- | --- | --- | --- | --- | --- |
 | M1 | 0.71 |0.5|3.8|40.8|11.5|
@@ -26,6 +27,7 @@ Weights: 1,1,1,1,1
 Impacts: +,+,+,+,+
 
 > Sample Output Data
+> 
 | Name | P1 | P2 | P3 | P4 | P5 |Score|Rank|
 | --- | --- | --- | --- | --- | --- |---|---|
 | M1 | 0.71 |0.5|3.8|40.8|11.5|0.3015751942839768|5|
